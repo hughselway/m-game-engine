@@ -1,6 +1,6 @@
 #1st build
 FROM golang:1.10
-WORKDIR /go/src/github.com/emailtovamos/m-game-engine
+WORKDIR c:users/hugh/go/src/github.com/hughselway/m-game-engine
 
 COPY vendor ./vendor
 COPY cli ./cli

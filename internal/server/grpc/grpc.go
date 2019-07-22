@@ -2,8 +2,8 @@ package grpc
 
 import (
 	"context"
-	pbgameengine "github.com/emailtovamos/m-apis/m-game-engine/v1"
-	"github.com/emailtovamos/m-game-engine/internal/server/logic"
+	pbgameengine "github.com/hughselway/m-apis/m-game-engine/v1"
+	"github.com/hughselway/m-game-engine/internal/server/logic"
 	"github.com/pkg/errors"
 	"github.com/rs/zerolog/log"
 	"google.golang.org/grpc"

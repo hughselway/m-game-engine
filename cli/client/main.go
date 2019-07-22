@@ -2,7 +2,7 @@ package main
 
 import (
 	"flag"
-	pbgameengine "github.com/emailtovamos/m-apis/m-game-engine/v1"
+	pbgameengine "github.com/hughselway/m-apis/m-game-engine/v1"
 	"github.com/rs/zerolog/log"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
@@ -42,7 +42,7 @@ func main() {
 	if r != nil {
 		log.Info().Interface("size", r.GetSize()).Msg("Size from m-game-engine microservice")
 	} else {
-		log.Error().Msg("Couldnt get size")
+		log.Error().Msg("Couldn't get size")
 	}
 
 }

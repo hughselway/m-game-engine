@@ -2,7 +2,7 @@ package main
 
 import (
 	"flag"
-	grpcSetup "github.com/emailtovamos/m-game-engine/internal/server/grpc"
+	grpcSetup "github.com/hughselway/m-game-engine/internal/server/grpc"
 	"github.com/rs/zerolog/log"
 )
 
